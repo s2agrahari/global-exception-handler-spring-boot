@@ -2,7 +2,7 @@
 Global Exception Handler in Spring Boot
 
 
-Create a controller advice in your project as follows to Globally Handle Exceptions and return your own custom error object
+Create a controller advice in your project as below to Globally Handle Exceptions and return your own custom error object
 
 @ControllerAdvice
 public class GlobalErrorHandler extends ResponseEntityExceptionHandler {
